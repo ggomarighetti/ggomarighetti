@@ -1,16 +1,49 @@
-## Hi there 👋
+<h1 align="center">GUILLERMO ORUE MARIGHETTI</h1>
 
-<!--
-**ggomarighetti/ggomarighetti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```ts
+type Engineer = {
+  fullName: string;
+  location: string;
+  studying: string;
+  working: string;
+  stack: string[];
+  focus: string[];
+  building: string[];
+  values: string[];
+  contact: string;
+};
 
-Here are some ideas to get you started:
+const guillermo: Engineer = {
+  fullName: "Guillermo Gabriel Orue Marighetti",
+  location: "Formosa, Argentina",
+  studying: "Ingeniería en Informática · Universidad de Palermo",
+  working: "Software Developer · Municipalidad de Herradura",
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  stack: [
+    "Java",
+    "Spring Boot",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "PostgreSQL",
+    "Keycloak",
+    "Docker",
+    "Kubernetes",
+  ],
+
+  focus: [
+    "Backend Architecture",
+    "Digital Transformation",
+    "Automation Engineering",
+    "Public Sector Solutions",
+  ],
+
+  values: [
+    "Aprendizaje continuo",
+    "Tecnología con impacto social",
+    "Software inclusivo y accesible",
+  ],
+
+  contact: "ggomarighetti@gmail.com",
+};
+```
