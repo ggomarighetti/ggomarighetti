@@ -1,7 +1,7 @@
 <h1 align="center">GUILLERMO ORUE MARIGHETTI</h1>
 
 ```ts
-type Engineer = {
+type Developer = {
   fullName: string;
   location: string;
   studying: string;
@@ -13,7 +13,7 @@ type Engineer = {
   contact: string;
 };
 
-const guillermo: Engineer = {
+const guillermo: Developer = {
   fullName: "Guillermo Gabriel Orue Marighetti",
   location: "Formosa, Argentina",
   studying: "Ingeniería en Informática · Universidad de Palermo",
@@ -34,7 +34,7 @@ const guillermo: Engineer = {
   focus: [
     "Backend Architecture",
     "Digital Transformation",
-    "Automation Engineering",
+    "Developer Tooling",
     "Public Sector Solutions",
   ],
 
